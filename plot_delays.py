@@ -64,26 +64,31 @@ for key, values in stations.iteritems():
                 next_subway_rush_hour.append(waiting_time)
 
 f = open('next_subway_waiting_time.txt','w')
+f.write('col1')
 for item in next_subway:
     f.write("%s\n" % str(item))
 f.close()
 
 f = open('next_subway_by_line_ts_waiting_time.txt','w')
+f.write('col1')
 for item in next_subway_by_line_ts:
     f.write("%s\n" % str(item))
 f.close()
 
 f = open('next_subway_by_line_ls_line.txt','w')
+f.write('col1')
 for item in next_subway_by_line_ls:
     f.write("%s\n" % str(item))
 f.close()
 
 f = open('next_subway_rush_hour_waiting_time.txt','w')
+f.write('col1')
 for item in next_subway_rush_hour:
     f.write("%s\n" % str(item))
 f.close()
 
 f = open('deltas.txt','w')
+f.write('col1')
 for item in deltas:
     f.write("%s\n" % str(item))
 f.close()
