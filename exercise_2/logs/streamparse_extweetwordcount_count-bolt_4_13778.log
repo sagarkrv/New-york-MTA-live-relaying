@@ -1,0 +1,18 @@
+2017-11-17 19:15:29,645 - streamparse.stdout - INFO - Could not create tcount
+2017-11-17 19:15:29,646 - streamparse.stdout - INFO - ERROR:  database "tcount" already exists
+
+2017-11-17 19:15:29,646 - streamparse.stdout - INFO - None
+2017-11-17 19:15:29,761 - streamparse.stdout - INFO - could not create table
+2017-11-17 19:15:29,761 - streamparse.stdout - INFO - ERROR:  relation "tweetwordcount" already exists
+
+2017-11-17 19:15:29,762 - streamparse.stdout - INFO - None
+2017-11-17 19:15:29,762 - streamparse.storm.component - ERROR - Exception in WordCounter.run()
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/streamparse-2.1.4-py2.7.egg/streamparse/storm/component.py", line 489, in run
+    self._run()
+  File "/usr/lib/python2.7/site-packages/streamparse-2.1.4-py2.7.egg/streamparse/storm/bolt.py", line 219, in _run
+    self.process(tup)
+  File "bolts/wordcount.py", line 63, in process
+    cur1.execute("INSERT INTO tweetwordcount(word, count) VALUES (%s, %s)", (uWord, uCount))
+InternalError: current transaction is aborted, commands ignored until end of transaction block
+
