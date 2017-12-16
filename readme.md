@@ -16,7 +16,9 @@
 
 8) $ mkdir /data
 9) $ chmod a+rwx /data
+
     mount -t ext4 /dev/<your device> /data
+    
     example: $ mount -t ext4 /dev/xvdf /data
 10) $ chmod a+rwx /data
 11) $ /data/start_postgres.sh
