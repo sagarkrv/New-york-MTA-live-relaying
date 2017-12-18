@@ -45,4 +45,7 @@ $ /data/start_postgres.sh
 
 $ psql -U "postgres"
 
-$ python sample4.py
+$ python fetch_mta_data.py
+ This would fill up the POSTGRES Database tables gtfs_vehicles, gtfs_alerts and gtfs_tuc (trip updates)
+ 
+$ 
