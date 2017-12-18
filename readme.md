@@ -49,7 +49,7 @@ $ python fetch_mta_data.py 30
  This would fill up the POSTGRES Database tables gtfs_vehicles, gtfs_alerts and gtfs_tuc (trip updates)
  30 stands for 30 fetches from the MTA end point separated across 30 seconds (15 min run time)
  
-$ python generate_mta_data.py
+$ python generate_delay_data.py
 spools the output of gtfs_vehicles in gtfs_vehicles.CSV file for data subsequent visualization in a graphical environment
 
 Run the last python programme in a Python environment with MATPLOTLIB libary installed
