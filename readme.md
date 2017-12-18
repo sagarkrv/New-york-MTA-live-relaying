@@ -57,4 +57,5 @@ spools the output of gtfs_vehicles in gtfs_vehicles.CSV file for data subsequent
 
 
 Run the last python programme in a Python environment with MATPLOTLIB libary installed
+
 $ python subway_analysis.py
