@@ -1,5 +1,5 @@
 This is a data mining project developed using POSTGRESSQL, PSYCOPG2 & Python.
-Live data from New York MTA is pulled from Google's API sources, and the result is visualized for statistical calculations.
+Live data from New York MTA is pulled from Google's API sources, stored in POSTGRES, and the results are visualized for statistical calculations. The whole project was executed in a few weeks, and completely on AWS EC2 instance.
 
 ## Step by step procedure :
 
