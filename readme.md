@@ -1,3 +1,6 @@
+This is a data mining project developed using POSTGRESSQL, PSYCOPG2 & Python.
+Live data from New York MTA is pulled from Google's API sources, and the result is visualized for statistical calculations.
+
 ## Step by step procedure :
 
 1) Create a new instance using public amazon machine image ami-d4dd4ec3
