@@ -1,4 +1,5 @@
-
+############# Author: Pragnesh K R V ###################################
+######## New York MTA mass live data fetch #############################
 from __future__ import absolute_import, print_function, unicode_literals
 from google.transit import gtfs_realtime_pb2
 import urllib
